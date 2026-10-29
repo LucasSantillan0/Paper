@@ -9,3 +9,9 @@ jobs:
       - name: test
         run: |
           echo "test" 
+  build2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        run: |
+          echo "test" 
