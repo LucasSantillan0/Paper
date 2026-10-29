@@ -10,6 +10,7 @@ jobs:
         run: |
           echo "test" 
   build2:
+    needs: [build]
     runs-on: ubuntu-latest
     steps:
       - name: test
