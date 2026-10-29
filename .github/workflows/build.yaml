@@ -6,6 +6,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: setup git
+        run: |
+        git config --global user.name "VM"
+        git config --global user.email "vm@vm.com" 
       - name: checkout
         uses: actions/checkout@v7
       - name: test
