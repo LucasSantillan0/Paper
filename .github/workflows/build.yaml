@@ -18,8 +18,10 @@ jobs:
       - run: java --version
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v6
-      - name: Build with Gradle
-        run: ./gradlew build
+      - name: Apply patches
+        run: ./gradlew applyPatches
+      - name: Create PaperclipJar
+        run: ./gradlew createPaperclipJar
   build2:
     needs: [build]
     runs-on: ubuntu-latest
