@@ -22,7 +22,13 @@
             ],
             "essential": true,
             "environment": [],
-            "mountPoints": [],
+            "mountPoints": [
+                {
+                    "sourceVolume": "paperworld",
+                    "containerPath": "/world",
+                    "readOnly": false
+                }
+            ],
             "volumesFrom": [],
             "secrets": [],
             "logConfiguration": {
@@ -39,7 +45,12 @@
     "executionRoleArn": "arn:aws:iam::982498569241:role/service-role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "revision": 2,
-    "volumes": [],
+    "volumes": [
+        {
+            "name": "paperworld",
+            "configuredAtLaunch": true
+        }
+    ],
     "status": "ACTIVE",
     "requiresAttributes": [
         {
