@@ -33,3 +33,10 @@ jobs:
         run: |
           docker build -t $REGISTRY/$REPOSITORY:$IMAGE_TAG .
           docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
+      - name: Deploy
+        uses: aws-actions/amazon-ecs-deploy-express-service@v1
+        with:
+          service-name: paper
+          image: ${{ steps.login-ecr.outputs.registry }}/paper-server:mc
+          execution-role-arn: arn:aws:iam::982498569241:role/ecsTaskExecutionRole
+          infrastructure-role-arn: arn:aws:iam::982498569241:role/ecsInfrastructureRole
