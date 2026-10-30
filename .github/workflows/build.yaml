@@ -18,6 +18,7 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::982498569241:role/GithubActionAccess
           aws-region: sa-east-1
+        env: ACTIONS_STEP_DEBUG: true
 
       - name: Login to Amazon ECR
         id: login-ecr
