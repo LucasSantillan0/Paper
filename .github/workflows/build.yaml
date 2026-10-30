@@ -60,4 +60,6 @@ jobs:
           task-definition: ${{ steps.render-web-container.outputs.task-definition }}
           service: paper
           cluster: default
-      
+          wait-for-service-stability: true
+          service-managed-ebs-volume-name: paperworld
+          service-managed-ebs-volume: '{"sizeInGiB": 20, "volumeType": "gp3", "encrypted": false, "roleArn": "arn:aws:iam::982498569241:role/ecsVolumeRole"}'
