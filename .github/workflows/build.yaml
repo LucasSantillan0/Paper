@@ -18,8 +18,7 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::982498569241:role/GithubActionAccess
           aws-region: sa-east-1
-        env: 
-          ACTIONS_STEP_DEBUG: true
+        
 
       - name: Login to Amazon ECR
         id: login-ecr
@@ -36,7 +35,13 @@ jobs:
       
   deploy:
     runs-on: ubuntu-latest
+    needs: [build]
     steps:
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4 
+        with:
+          role-to-assume: arn:aws:iam::982498569241:role/GithubActionAccess
+          aws-region: sa-east-1
       - name: Login to Amazon ECR
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v2
