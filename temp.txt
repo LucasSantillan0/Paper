@@ -1,1 +1,1 @@
-https://pa-5f037e10b2394e7a92fdfdf796bdc229.ecs.sa-east-1.on.aws/
+54.20.241.134
