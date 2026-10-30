@@ -1,0 +1,163 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "minecraft:sulfur_caves": null,
+    "minecraft:swamp": null,
+    "minecraft:forest": null,
+    "minecraft:deep_dark": null,
+    "minecraft:warm_ocean": null,
+    "minecraft:snowy_slopes": null,
+    "minecraft:stony_peaks": null,
+    "minecraft:frozen_ocean": null,
+    "minecraft:deep_ocean": null,
+    "minecraft:ocean": null,
+    "minecraft:meadow": null,
+    "minecraft:windswept_savanna": null,
+    "minecraft:deep_cold_ocean": null,
+    "minecraft:pale_garden": null,
+    "minecraft:jagged_peaks": null,
+    "minecraft:stony_shore": null,
+    "minecraft:sunflower_plains": null,
+    "minecraft:mangrove_swamp": null,
+    "minecraft:bamboo_jungle": null,
+    "minecraft:deep_lukewarm_ocean": null,
+    "minecraft:taiga": null,
+    "minecraft:dripstone_caves": null,
+    "minecraft:windswept_forest": null,
+    "minecraft:dark_forest": null,
+    "minecraft:dappled_forest": null,
+    "minecraft:savanna": {
+      "secs_since_epoch": 1791406669,
+      "nanos_since_epoch": 331274852
+    },
+    "minecraft:old_growth_birch_forest": null,
+    "minecraft:cold_ocean": null,
+    "minecraft:cherry_grove": null,
+    "minecraft:badlands": {
+      "secs_since_epoch": 1791408075,
+      "nanos_since_epoch": 513213912
+    },
+    "minecraft:old_growth_pine_taiga": null,
+    "minecraft:snowy_beach": null,
+    "minecraft:windswept_hills": null,
+    "minecraft:windswept_gravelly_hills": null,
+    "minecraft:birch_forest": null,
+    "minecraft:flower_forest": null,
+    "minecraft:deep_frozen_ocean": null,
+    "minecraft:old_growth_spruce_taiga": null,
+    "minecraft:lukewarm_ocean": null,
+    "minecraft:jungle": null,
+    "minecraft:frozen_river": null,
+    "minecraft:mushroom_fields": null,
+    "minecraft:savanna_plateau": null,
+    "minecraft:wooded_badlands": null,
+    "minecraft:desert": null,
+    "minecraft:grove": null,
+    "minecraft:frozen_peaks": null,
+    "minecraft:snowy_taiga": null,
+    "minecraft:beach": null,
+    "minecraft:eroded_badlands": null,
+    "minecraft:ice_spikes": null,
+    "minecraft:plains": {
+      "secs_since_epoch": 1791407170,
+      "nanos_since_epoch": 199378632
+    },
+    "minecraft:lush_caves": null,
+    "minecraft:snowy_plains": null,
+    "minecraft:sparse_jungle": null,
+    "minecraft:river": {
+      "secs_since_epoch": 1791407009,
+      "nanos_since_epoch": 55365487
+    }
+  },
+  "minecraft:story/smelt_iron": {
+    "iron": {
+      "secs_since_epoch": 1791407422,
+      "nanos_since_epoch": 171132528
+    }
+  },
+  "minecraft:story/mine_stone": {
+    "get_stone": {
+      "secs_since_epoch": 1791406852,
+      "nanos_since_epoch": 98620242
+    }
+  },
+  "minecraft:story/upgrade_tools": {
+    "stone_pickaxe": {
+      "secs_since_epoch": 1791406883,
+      "nanos_since_epoch": 718032761
+    }
+  },
+  "minecraft:husbandry/root": {
+    "consumed_item": {
+      "secs_since_epoch": 1791407174,
+      "nanos_since_epoch": 25570246
+    }
+  },
+  "minecraft:adventure/root": {
+    "killed_by_something": null,
+    "killed_something": {
+      "secs_since_epoch": 1791406992,
+      "nanos_since_epoch": 786679815
+    }
+  },
+  "minecraft:story/root": {
+    "crafting_table": {
+      "secs_since_epoch": 1791406782,
+      "nanos_since_epoch": 532641750
+    }
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "melon_slice": null,
+    "pufferfish": null,
+    "beetroot_soup": null,
+    "bread": {
+      "secs_since_epoch": 1791407488,
+      "nanos_since_epoch": 754801009
+    },
+    "spider_eye": null,
+    "cooked_cod": null,
+    "golden_apple": null,
+    "cooked_chicken": null,
+    "mushroom_stew": null,
+    "cod": null,
+    "apple": null,
+    "rabbit": null,
+    "cooked_beef": null,
+    "tropical_fish": null,
+    "sweet_berries": null,
+    "baked_potato": null,
+    "porkchop": null,
+    "carrot": null,
+    "salmon": {
+      "secs_since_epoch": 1791407174,
+      "nanos_since_epoch": 25742193
+    },
+    "beef": null,
+    "enchanted_golden_apple": null,
+    "honey_bottle": null,
+    "rabbit_stew": null,
+    "cooked_rabbit": null,
+    "dried_kelp": null,
+    "chicken": null,
+    "potato": null,
+    "beetroot": null,
+    "cookie": null,
+    "cooked_salmon": null,
+    "golden_carrot": null,
+    "poisonous_potato": null,
+    "mutton": null,
+    "rotten_flesh": null,
+    "pumpkin_pie": null,
+    "suspicious_stew": null,
+    "chorus_fruit": null,
+    "glow_berries": null,
+    "cooked_porkchop": null,
+    "cooked_mutton": null
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "slept_in_bed": {
+      "secs_since_epoch": 1791407454,
+      "nanos_since_epoch": 316461024
+    }
+  }
+}
