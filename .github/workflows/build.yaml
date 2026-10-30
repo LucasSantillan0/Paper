@@ -36,7 +36,7 @@ jobs:
       - name: Deploy
         uses: aws-actions/amazon-ecs-deploy-express-service@v1
         with:
-          service-name: paper
+          service-name: paper-server-0e55
           image: ${{ steps.login-ecr.outputs.registry }}/paper-server:mc
           execution-role-arn: arn:aws:iam::982498569241:role/service-role/ecsTaskExecutionRole
           infrastructure-role-arn: arn:aws:iam::982498569241:role/service-role/ecsInfrastructureRoleForExpressServices
