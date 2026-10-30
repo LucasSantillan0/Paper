@@ -3,6 +3,9 @@ name: Build
 on: push
 
 jobs:
+  permissions:
+    id-token: write
+    contents: read
   build:
     runs-on: ubuntu-latest
     steps:
